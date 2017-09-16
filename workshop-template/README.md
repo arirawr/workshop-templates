@@ -30,7 +30,7 @@ __3. We list all the yellow Pokemon. Show the Pokemon of a different colour.__
 
 hint: look at the `pokemon-color` call in server.js
 
-__3. Check out the [documentation](https://github.com/PokeAPI/pokedex-promise-v2) and get a different type of data__
+__4. Check out the [documentation](https://github.com/PokeAPI/pokedex-promise-v2) and get a different type of data__
 
 hint: copy one of the calls in server.js
 
@@ -38,7 +38,7 @@ Tips
 --------
 
 - Click on "Logs" to see errors in `server.js`
-- 
+- Use `console.log('something');` to log data and debug your code
 
 Resources
 --------
