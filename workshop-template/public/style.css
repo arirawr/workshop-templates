@@ -1,0 +1,31 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  margin: 25px;
+}
+
+h1 {
+  font-weight: 700;
+  color: #F59B23;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+
+li {
+  margin-bottom: 5px;
+}

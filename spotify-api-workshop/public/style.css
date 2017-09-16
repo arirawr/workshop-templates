@@ -1,0 +1,105 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+}
+
+h1 {
+  font-weight: bold;
+  color: #1ED760;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: #1E3264;
+  color: #FF6437;
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 3px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+}
+
+label {
+  margin-right: 10px;
+}
+
+button {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: #1E3264;
+  border: 1px solid #FF6437;
+  box-shadow: 2px 2px #FF6437;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  margin: 20px 0;
+}
+
+a button {
+  color: white;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #FF6437;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+footer > a {
+  color: #1ED760;
+}
+
+.nicejob {
+  text-decoration: line-through;
+}
+
+#albumart {
+  width: 200px;
+  display: block;
+}

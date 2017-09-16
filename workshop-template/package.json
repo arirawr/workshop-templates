@@ -1,0 +1,33 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hackcon-workshop",
+  "version": "0.0.1",
+  "description": "An example workshop template for Hackcon EU 2017",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "pokedex-promise-v2": "^3.0.3"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hackcon"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "workshop",
+    "pokemon",
+    "pokedex",
+    "template",
+    "api"
+  ]
+}

@@ -1,0 +1,50 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hackcon Workshop Template</title>
+    <meta name="description" content="Interactive workshop template for Hackcon EU 2017">
+    <link id="favicon" rel="icon" href="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  </head>
+  <body>
+    <h2><a href="https://glitch.com/edit/#!/hackcon">Get started by Remixing in Glitch</a></h2>
+    <header>
+      <h1>
+        Hackcon Workshop Template
+      </h1>
+    </header>
+
+    <main>
+      
+      <h2>
+        <!-- We will append the count here --> 
+        There are <span id="pokemon-count"></span> Pokemon
+      </h2>
+      
+      <!-- We set the 'src' of this image in client.js -->
+      <img id="pokemon-image"/>
+      
+      <h3>
+        These are all the yellow pokemon:
+      </h3>
+      <ul id="pokemon-color">
+        <!-- We will append pokemon of a specific colour here -->
+      </ul>
+      
+    </main>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>

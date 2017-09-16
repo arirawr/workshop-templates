@@ -1,0 +1,30 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "spotifyapi1",
+  "version": "0.0.1",
+  "description": "What am I about?",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "spotify-web-api-node": "^2.3.6"
+  },
+  "engines": {
+    "node": "6.10.x"
+  },
+  "repository": {
+    "url": "https://github.com/arirawr/spotifyapi-workshop"
+  },
+  "author": "Arielle Vaniderstine",
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "spotify"
+  ]
+}
