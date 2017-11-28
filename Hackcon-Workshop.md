@@ -53,7 +53,8 @@ Extract away technical details
     - Limited prior knowledge
     - Attendees can walk away with something that works
     - Room for further exploration
-- __Interactive:__ https://pokeapi.co/
+- Start Non-Technical
+    - __Interactive:__ https://pokeapi.co/
     - Try getting data for another Pokemon! 
 
 ##### Development environment setup
@@ -68,7 +69,7 @@ Extract away technical details
     - Cloud9 (full ubuntu environment)
     - Codepen
     - JSFiddle
-    - Github (if your audience already has accounts & knows Git)
+    - GitHub (if your audience already has accounts & knows Git)
 
 ##### Small technical errors
 - Provide a working foundation
@@ -87,6 +88,6 @@ Extract away technical details
     - If beginners are motivated to create something, they learn the details of how to do it as a side effect.
 
 ### Your Workshop Template Pack
-- https://github.com/arirawr/hackcon-workshop
+- https://github.com/arirawr/workshop-template
 
 __Happy Workshopping! If you have questions, open a Github issue on the template pack or tweet @imariari.__
