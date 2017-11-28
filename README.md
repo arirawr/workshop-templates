@@ -1,6 +1,6 @@
-# Hackcon Workshop Template Pack
+# Workshop Template Pack
 
-Workshop Template Pack for Hackcon EU 2017
+Workshop Template Pack for workshop facilitators
 
 Contents
 ---
